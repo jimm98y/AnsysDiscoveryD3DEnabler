@@ -8,6 +8,8 @@ Forces Ansys Discovery to use Direct3D 11 instead of OpenGL 4.6, making it run i
 1. Copy `DiscoveryLoader.exe` and `DiscoveryLoader.exe.config` to the same folder as `Discovery.exe` (usually `C:\Program Files\ANSYS Inc\v251\Discovery`)
 1. Run `DiscoveryLoader.exe`
 
+IMPORTANT: In case the app fails to launch due to an error, delete the included `DiscoveryLoader.exe.config`, make a copy of the original `Discovery.exe.config` and rename it to `DiscoveryLoader.exe.config`, then try launching it again.
+
 ## Uninstallation
 1. Delete `DiscoveryLoader.exe` and `DiscoveryLoader.exe.config`
 
